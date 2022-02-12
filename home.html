@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- css -->
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <main>
+        <!-- header -->
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__flex">
+                    <a class="header__link" href="home.html"><img class="header__logo" src="img/site__logo.svg" alt="site-logo"></a>
+                    <div class="header__input">
+                        <img class="input__icon" src="img/search.svg" alt="search-icon">
+                        <input type="text" name="search" id="search" placeholder="Search books">
+                    </div>
+                    <div class="logut__content">
+                        <button class="dark__mode"><img class="" src="img/sun.svg" alt="sun"></button>
+                        <a class="logout" href="index.html">Logout</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </header>
+        <!-- header end -->
+        
+        <!-- result -->
+        <section id="result">
+            <div class="result__container container">
+                <div class="result__flex">
+                    <h2 class="result__title">Showing <span id="result__span"></span> Result(s)</h2>
+                    <a class="result__order" href="#"> <img src="img/calendar.svg" alt="calendar-icon"> Order by newest</a>
+                </div>
+            </div>
+        </section>
+        <!-- result end -->
+        
+        <!-- bookmark -->
+        <section id="bookmarks">
+            <div class="bookmarks__container container">
+                <div class="bookmark__hero">
+                    
+                    <div class="bookmark__body">
+                        <h2 class="bookmark__title">Bookmarks</h2>
+                        <p class="bookmark__text">If you don’t like to read, you haven’t found the right book</p>
+                        <ul class="bookmark__list">
+                            <li class="bookmark__item">
+                                <div>
+                                    <h3 class="bookmark-item__title">Python</h3>
+                                    <p class="bookmark-item__text">David M. Beazley</p>    
+                                </div>
+                                <div>
+                                    <button class="btn__transparent read__book"><img src="img/book-open.svg" alt="book-icon"></button>
+                                    <button class="btn__transparent delete__book"><img src="img/delete.svg" alt="delete-icon"></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul id="hero__list">
+                            <!-- <li class="hero__item card">
+                                <img class="card__img" src="img/card__img.jpg" alt="book-img">
+                                <div>
+                                    <h2 class="card__title">Python</h2>
+                                    <p class="card__text">David M. Beazley</p>
+                                    <p class="card__text">2009</p>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <button class="bookmark__btn">Bookmark</button>
+                                            <button class="btn more__btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">More Info</button>
+                                            
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                    <h3 id="offcanvasRightLabel">Python</h3>
+                                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body">
+                                                    <div class="center-xs">
+                                                        <img class="canvas__img" src="img/card__img.jpg" alt="book-img">
+                                                        <p class="canvas__text">Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum. Incididunt quis mollit elit commodo cillum eiusmod reprehenderit labore irure. Cillum et incididunt et nostrud exercitation quis aute laboris non ut adipisicing. Laboris ad minim aute nulla proident deserunt velit anim sunt aliquip ut sit. Exercitation aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod sit consectetur mollit ea aliqua officia consequat. Magna non mollit nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip non consectetur esse proident duis Lorem.</p>
+                                                    </div>
+                                                    <ul class="canvas__list">
+                                                        <li class="canvas__item">
+                                                            <h4 class="canvas__infotitle ">Author : <span class="canvas__infospan">Jamal Kasper</span></h4>
+                                                        </li>
+                                                        <li class="canvas__item">
+                                                            <h4 class="canvas__infotitle">Published : <span class="canvas__infospan">2019</span></h4>
+                                                        </li>
+                                                        <li class="canvas__item">
+                                                            <h4 class="canvas__infotitle">Publishers: <span class="canvas__infospan">Hollman</span></h4>
+                                                        </li>
+                                                        <li class="canvas__item">
+                                                            <h4 class="canvas__infotitle">Categories : <span class="canvas__infospan">Computers</span></h4>
+                                                        </li>
+                                                        <li class="canvas__item">
+                                                            <h4 class="canvas__infotitle">Pages Count : <span class="canvas__infospan">346</span></h4>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="canvas__read">
+                                                    <button class="canvas__btn">Read</button>   
+                                                </div>
+                                            </div>          
+                                        </div>
+                                    </div>
+                                    <button class="read__btn">Read</button>
+                                </div>
+                            </li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- bookmark end -->
+    </main>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

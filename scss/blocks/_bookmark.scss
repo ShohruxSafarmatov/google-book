@@ -1,0 +1,158 @@
+// bookmark css
+
+.bookmark__hero{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.bookmark__body {
+    width: 268px;
+    height: 1038px;
+    background: #fff;
+    box-shadow: 0px 3px 2px rgb(0 0 0 / 10%);
+    transform: translateY(1px);
+    padding: 25px;
+}
+.bookmark__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.bookmark__text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155.6%;
+    color: #000000;
+    margin-top: 0;
+}
+.bookmark__list{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    
+}
+.bookmark__item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F8FAFD;
+    border-radius: 4px;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+.bookmark-item__title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #000000;
+}
+.bookmark-item__text{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+    margin: 0;
+}
+.btn__transparent{
+    background: transparent;
+    border: transparent;
+    padding: 0;
+}
+
+
+
+#hero__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.hero__item {
+    list-style: none;
+    width: 282px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 25px;
+
+}
+.card__img {
+    width: 249px;
+    height: 202px;
+    background: #F8FAFD;
+    border-radius: 5px;
+    padding: 18px 24px;
+    margin-bottom: 37px;
+
+}
+
+.card__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.card__text {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+}
+.bookmark__btn {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    background: #FFD80D;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 25px;
+    margin-right: 3px;
+}
+.more__btn {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0D75FF;
+    background: rgba(13, 117, 255, 0.05);
+    border-radius: 4px;
+    padding: 10px 28px;
+    border: none;
+}
+.read__btn {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #75828A;
+    border-radius: 4px;
+    padding: 10px 105px;
+    border: none;
+    margin-top: 5px;
+}

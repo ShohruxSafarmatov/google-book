@@ -1,0 +1,38 @@
+// result css
+
+#result{
+    background: #fff;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 15%);
+    padding: 20px 0;
+    
+}
+.result__flex{
+    display: flex;
+    justify-content: space-between;
+    width: 885px;
+    margin-left: 26%;
+}
+.result__title{font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222531;
+}
+.result__order{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;  
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 165px;
+    height: 34px;
+    padding: 5px 13px;
+    background: #A6B0C3;
+    border-radius: 4px;
+}
