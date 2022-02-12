@@ -65,14 +65,11 @@ fetch('https://www.googleapis.com/books/v1/volumes?q=python')
     document.getElementById("hero__list").innerHTML+=dateWon;
     
 }).catch((err)=>{
-    console.log(err);
-
+    alert(err);
+    
 })
 
 
-
-fetch('https://www.googleapis.com/books/v1/volumes?q=python').then(res => res.json).then(data =>data)
-console.log(data);
 
 
 
